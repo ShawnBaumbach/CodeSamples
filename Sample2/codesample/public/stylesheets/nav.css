@@ -5,16 +5,14 @@
   
   /* Style the links inside the navigation bar */
   .topnav a {
-    float: left;
     color: black;
+    width: 100%;
     text-align: center;
-    padding: 14px 18px;
+    padding: 14px 14px 14px 0px;
     text-decoration: none;
     font-size: 22px;
     position: relative;
     left:200px;
-    top: 10px;
-
   }
   
   /* Change the color of links on hover */
@@ -26,29 +24,3 @@
   .topnav a.active {
     color: rgb(0, 68, 255);
   }
-
-.titlenav {
-overflow: hidden;
-border-bottom: 1px solid rgb(214, 214, 214);
-}
-
-.titlenav a{
-    float: left;
-    color: black;
-    text-align: right;
-    padding: 14px 18px;
-    text-decoration: none;
-    font-size: 22px;
-    position: relative;
-    left:200px;
-    top: 10px;
-}
-/* Change the color of links on hover */
-.titlenav a:hover {
-    background-color: rgb(233, 233, 233);
-}
-
-/* Add a color to the active/current link */
-.titlenav a.active {
-    color: rgb(0, 68, 255);
-}
