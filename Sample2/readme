@@ -1,3 +1,5 @@
 This is a webpage created with node.js, hmtl, css, mongo, and js.
 
 Its purpose is to allow the user to add two data fields into the mongo database and to then retrieve all of the elements in the collection.
+
+Another purpose is to use javascript to get a random cat fact and to then display that fact onto the screen.
