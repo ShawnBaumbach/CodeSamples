@@ -3,7 +3,7 @@
 <head>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
     <script src="javascripts/navigation.js"></script>
-    <link rel="stylesheet" href="/stylesheets/grids.css">
+    <script defer src="javascripts/catfacts.js"></script>
     <link rel="stylesheet" href="/stylesheets/nav.css">
     <meta charset="UTF-8">
     <title>Code Sample</title>
@@ -11,11 +11,9 @@
 <body>
     <div id="navigation"></div>
     <div style="margin-left: 200px; margin-top: 25px">
-        <h2>Code Samples</h2>
-        <p>Click on forms or cats to view a coding sample.</p>
-        <p>Forms: Allows you to fill in form data and send it to a mongoDB. The data is then presented to you.</p>
-        <p>Cats: Random cat facts via calling a api using javascript.</p>
-        <p><i>- Shawn Baumbach</i></p>
+        <h2>Cat Facts!</h2>
+        <button type="button" id="catButton">Click Me!</button>
+        <p id="catFacts" style="width: 800px;" ></p>
     </div>
 </body>
 </html>

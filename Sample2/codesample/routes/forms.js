@@ -23,20 +23,12 @@ router.get('/', function(req, res, next) {
   })
 });
 
-// app.post('/form', (req, res) => {
-//   db.collection('quotes').save(req.body, (err, result) => {
-//     if (err) return console.log(err);
-//     console.log('saved to database');
-//   })
-//     res.redirect('/users');
-// })
-
 router.post('/form', (req, res, next) => {
   db.collection('quotes').save(req.body, (err, result) => {
     if (err) return console.log(err);
     console.log('saved to database');
   })
-    res.redirect('/users');
+    res.redirect('/forms');
 })
 
 // TODO: close not working?
