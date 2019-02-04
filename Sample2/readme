@@ -1,4 +1,4 @@
-This is a webpage created with node.js, hmtl, css, mongo, and js.
+This is a web application created with node.js, hmtl, css, mongo, and js.
 
 Its purpose is to allow the user to add two data fields into the mongo database and to then retrieve all of the elements in the collection.
 
