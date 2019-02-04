@@ -1,1 +1,2 @@
-Creates a console application that consumes a web api and then returns some data found in the returned json.
+Purpose: Creates a console application that consumes a web api and then returns some data found in the returned json.
+Used: C#
